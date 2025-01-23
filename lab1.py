@@ -1,23 +1,24 @@
 import math
 #problem 1
-print((math.pi*(5**2)))
-print(((math.pi*(3**3))*(4/3)))
-print(math.sqrt(3**2+4**2))
+r = 5
+rsphere = 3
+a = (math.pi*(r**2))
+v = (4/3) * math.pi * rsphere**3
+a_side = 3
+b_side = 4
+pyt = math.sqrt(a_side**2+b_side**2)
+print(a, v, pyt)
 #problem 2
-full_name = "Glen Ferrara Frame"
-print(len(full_name))
 first_name = "Glen"
 last_name = "Frame"
 concatenated_name = first_name + " " + last_name
-print(concatenated_name)
-print(concatenated_name.upper())
-print(concatenated_name.lower())
+concatenated_name_len = len(concatenated_name)
+print(concatenated_name, concatenated_name.upper(), concatenated_name.lower(), concatenated_name_len)
 #problem 3
 age = 18
 height = 6.3
 weight = 201
-print(type(age))
-print(type(height))
-print(type(weight))
-BMI = ((weight/((height*12)**2))*703)
+inches = height * 12
+print(type(age), type(height), type(weight))
+BMI = ((weight/(inches**2))*703)
 print(BMI)
