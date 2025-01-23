@@ -2,6 +2,7 @@ import math
 #problem 1
 r = 5
 rsphere = 3
+#radius of sphere is different from radius of circle
 a = (math.pi*(r**2))
 v = (4/3) * math.pi * rsphere**3
 a_side = 3
